@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "layout-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Tyler Phillips <phillity@iu.edu>"]
+readme = "README.md"
+packages = [{include = "layout_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "*"
+torchvision = "*"
+transformers = "*"
+timm = "*"
+pycocotools = "*"
+pandas = "*"
+opencv-python = "*"
+pillow = "*"
+jupyterlab = "*"
+tqdm = "*"
+scipy = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
